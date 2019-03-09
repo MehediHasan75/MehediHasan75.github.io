@@ -1,0 +1,482 @@
+body{
+    background-color: #9fa7a712;
+    font-family: 'Poppins', sans-serif;
+    color: ;
+}
+
+a:hover{
+    text-decoration: none;
+}
+/* Back to Top */
+a.back-to-top {
+    bottom: 0px;
+    right: 10px;
+    padding: 5px 10px;
+    background: #FE980F;
+    color: #FFF;
+    -webkit-animation: bounce 2s ease infinite;
+    animation: bounce 2s ease infinite;
+}
+
+a.back-to-top i {
+    font-size: 30px;
+} 
+
+/* Preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  #preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #f2f2f2;
+    border-top: 6px solid #2eca6a;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+  }
+  
+  @-webkit-keyframes animate-preloader {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-preloader {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  /* Preloader */
+/* Header Top CSS */
+.contact a{
+    color: #dad2d2;
+    padding: 10px 8px;
+    transition: 0.9s all ease 0s;
+    display: inline;
+}
+
+.contact a:first-child{
+    margin-left: 10px;
+}
+
+.contact a:hover{
+    color: #FE980F;
+    transition: 0.7s ease 0s;
+}
+.social_media{
+    float: right;
+}
+.social_media a{
+    color: #dad2d2;
+    display: inline-flex;
+}
+
+.social_media a{
+    padding: 6px 8px;
+    transition: 0.9s all ease 0s;
+}
+.social_media a:first-child{
+    margin-left: 10px;
+}
+
+.social_media a:hover{
+    color: #fff;
+}
+
+.facebook:hover{
+    background: #4254dec9;
+}
+
+.twitter:hover{
+    background: #04f7f7bd;
+}
+
+.instagram:hover{
+    background: #f56c6c;
+}
+
+.youtube:hover{
+    background: #ff0000b5;
+}
+/* Header Top CSS */
+
+/* Navbar */
+#navbars{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky{
+padding-top: 60px;
+}
+.logo{
+    float: left;
+    height: 30px;
+}
+
+.logo_title{
+    color: #a2a2a2;
+    padding: px;
+}
+
+  
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #343a40!important;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: #a2a2a2;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+   
+}
+  
+.dropdown-content a:hover {
+    background-color: #FE980F;
+    color: #fff;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Navbar */
+
+/* Slider */
+.slide_img{
+    width: 100%;
+    height: 600px;
+}
+/* Slider */
+
+/* Jumbotron */
+.jumb, .sub{
+    text-align: center;
+}
+/* Jumbotron */
+
+/* cards */
+.services h1{
+    font: outline;
+    font-family: sans-serif;
+    border-bottom: 3px dotted #FE980F;
+}
+.cards:hover{
+    color: #FE980F;
+    transition: 0.9s all ease 0s;
+}
+
+.card{
+    background-color: #f8f8f8;
+    border: none;
+    position: relative;
+}
+
+.headers{
+    border: none;
+    background:  #f8f8f8;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.card-body{
+    padding: .5rem .5rem 0 .5rem;
+    color: #555555;
+}
+.card-box-icon{
+    padding: 1rem 3rem 1rem 2.5rem;
+    border: 5px solid #2eca6a;
+}
+
+.card-box-icon span{
+    font-size: 4rem;
+    color: #000;
+}
+.card-title{
+   padding-top: 8px;
+}
+
+.card-title h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-left: -40px;
+    margin-top: 8px;
+    color: #000;
+}
+/* cards */
+
+
+/* Student Pannel CSS */
+.left_slidebar h3, .student_panel h3{
+    color: #FE980F;
+    padding: 5px;
+    font: outline;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.left_slidebar h3:after, .student_panel h3:after{
+    content: " ";
+    position: absolute;
+    border: 1px solid #a2a2a2;
+    bottom: 14px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    z-index: -2; 
+}
+
+.left_slidebar h3:before, .student_panel h3:before{
+    content: " ";
+    position: absolute;
+    background: #f8f8f8;
+    bottom: -6px;
+    width: 130px;
+    height: 30px;
+    left: 50%;
+    margin-left: -65px;
+    z-index: -1;
+}
+
+.list-group-item{
+    padding: .25rem;
+}
+.list-group li a{
+    color: #FE980F;
+}
+
+.badge{
+    float: right;
+    margin-top: 16px;
+}
+
+/* Student Pannel CSS */
+
+/* Card */
+
+/*!-- Testimonial --*/
+.fa-quote-right{
+    margin-top: 15px;
+    border: 3px solid #FE980F;
+    border-radius: 100%;
+    padding: 6px;
+    font-size: 45px;
+    background: #2eca6a;
+    color: #fff;
+}
+
+.testi-text {
+    border: 1px solid #555555;
+    padding: 5px;
+
+}
+.carousel-indicators .active {
+    background-color: #FE980F;
+}
+
+.carousel-indicators li {
+    background-color: rgb(56, 249, 8);
+}
+/*!-- Testimonial --*/
+
+/* Tab */
+.latest h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FE980F;
+    border-bottom: 2px solid #2eca6a;
+}
+
+.tab{
+    background-color: ;
+}
+
+.tab li a{
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    width: 100%;
+    
+}
+
+.tab-text h4{
+    text-decoration: underline;
+    padding: 4px 0px 4px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Tab */
+
+/* View Details */
+.img {
+    border: 3px solid #2eca6a;
+    float: center;
+}
+.simple{
+    border-right: 2px solid #FE980F;
+    padding: 5px;
+}
+.border-info h2{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+}
+.border-info p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.info h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    background-color: #4254dec9;
+    color: #FFF;
+    border-bottom: 2px solid #FE980F;
+}
+
+.info h4{
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+.info table td{ 
+    border: none;
+}
+
+.info td{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* View Details */
+
+
+/* SITE RANGE */
+.cost h2{
+    text-align: center;
+    color: #fdb707;
+    font-size: 50px;
+    font-family: monospace;
+    border-bottom: 2px dotted;
+}
+
+.tab-title{
+    color: #2eca6a;
+    font-family: cursive;
+}
+
+.nav-tabs {
+    border-bottom: 2px solid #fff;
+}
+.nav-tabs:active{
+    border-bottom: none;
+}
+.nav-tabs .nav-link {
+    border: 2px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    font-size: 25px;
+    font-family: monospace;
+}
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: #e9ecef #e9ecef #dee2e6;
+    color: #2eca6a;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #fdb707;
+    border-color: #2eca6a #2eca6a #fff;
+    font-size: 25px;
+    color: #fff;
+    font-family: monospace;
+}
+
+.site table th, .site table td{ 
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.site table td:hover, .mill table td:hover{
+    color: #fff;
+}
+
+.mill table th{
+    border: none;
+}
+
+.mill table td, .mill table th{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* SITE RANGE */
+
+/* Photo Gallary */
+.img-g img {
+    width: 100%;
+    height: 250px;
+    margin: 14px 0px 14px 0px;
+    border: 5px solid #2eca6a;
+}
+
+.img-g img:hover {
+    border-radius: 100%;
+    transition: 1s all ease 0s;
+}
+
+.img-m img{
+    width: 100%;
+}
+/* Photo Gallary */
